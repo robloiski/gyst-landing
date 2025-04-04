@@ -61,7 +61,7 @@ export default function Home() {
               <div className="aspect-video bg-gray-100 relative">
                 <iframe 
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                  src="https://www.youtube.com/embed/TtYYvqeSz3w" 
                   title="GYST AI Automation Video"
                   frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

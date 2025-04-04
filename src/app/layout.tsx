@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from 'next/head';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,6 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gyst - AI Automation Agency",
   description: "Streamline your business with AI-powered automation solutions",
+  icons: [
+    {
+      rel: 'icon',
+      url: '/favicon.png',
+      sizes: 'any',
+    }
+  ],
 };
 
 export default function RootLayout({
@@ -25,9 +31,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.png" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
