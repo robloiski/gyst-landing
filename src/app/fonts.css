@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Gobold Extra';
+  src: url('/fonts/gobold_extra.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brushstrike';
+  src: url('/fonts/brushstrike.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} 
