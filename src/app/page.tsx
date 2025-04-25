@@ -9,13 +9,13 @@ export default function Home() {
       {/* Header */}
       <header className="container mx-auto py-4 px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Image 
+        <Image
             src="/gyst-logo.png" 
             alt="Gyst Logo" 
             width={110} 
             height={30} 
-            priority
-          />
+          priority
+        />
         </div>
       </header>
 
@@ -84,11 +84,11 @@ export default function Home() {
                 <li className="flex items-start">
                   <span className="text-yellow-500 mr-2 mt-1">✓</span>
                   <span>How to fix productivity bottlenecks forever with intelligent automation</span>
-                </li>
+          </li>
                 <li className="flex items-start">
                   <span className="text-yellow-500 mr-2 mt-1">✓</span>
                   <span>How to implement AI solutions even when you're not a technical expert</span>
-                </li>
+          </li>
               </ul>
             </div>
 
@@ -212,6 +212,7 @@ export default function Home() {
               <Link href="/about" className="hover:text-yellow-400">About</Link>
               <Link href="/services" className="hover:text-yellow-400">Services</Link>
               <Link href="/contact" className="hover:text-yellow-400">Contact</Link>
+              <Link href="/privacy-policy" className="hover:text-yellow-400">Privacy Policy</Link>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
